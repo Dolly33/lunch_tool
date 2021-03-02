@@ -1,5 +1,4 @@
 import React from 'react'; 
-import ReactDOM from 'react-dom';
 import CanteenLogo from '../Images/CanteenLogo.png';
 import '../App.css';
 import {Link} from 'react-router-dom';
@@ -8,9 +7,9 @@ function Nav(){
     return(
         <div>
         <nav id="navbar">
-            <img src={CanteenLogo} classname="logo"/>
+            <img src={CanteenLogo} classname="logo" alt="logo"/>
             <ul>
-                <Link to="/admin">
+                <Link to="/admin/dashboard">
                      <li>Home</li>
                 </Link>
                 <Link  to="/admin/students">

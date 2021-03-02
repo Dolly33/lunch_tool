@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css';
+import Nav from './loginnavbar';
 
 function Food() {
   return (
     <div>
-      
+      <Nav/>
       <h1 id="foodtitle">Meals</h1>
 
-      <table>
+      <table className="admintable">
         <tr>
           <th>DAYS</th>
           <th>MEAL 1</th> 

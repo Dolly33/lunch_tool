@@ -1,12 +1,14 @@
 import React from 'react';
 import '../App.css';
+import Nav from './loginnavbar';
 
 function Students() {
   return (
     <div>
+      <Nav />
       <h1 id="studenttitle">Students</h1>
-
-      <table>
+      
+      <table  className="admintable">
         <tr>
           <th>ID NUMBER</th>
           <th>FIRST NAME</th>
