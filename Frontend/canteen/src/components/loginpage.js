@@ -22,7 +22,7 @@ function Login(){
                 <form onSubmit={submitFunction}>
                     <input type="text" placeholder="Username" className="username" onChange ={(e)=>{setId(e.target.value)}}/>
                     <input type="password" placeholder="Password" onChange ={(e)=>{setPassword(e.target.value)}}/>
-                    <button type="submit" >Sign In</button>
+                    <button type="submit">Sign In</button>
                  </form>
             </div>
 

@@ -20,7 +20,7 @@ app.get("/meals", (req, res)=>{
     });
 
     app.post("/api/insertmeals", (req, res)=>{
-        const sqlinsert = "insert into meals values ('tuesday', 'banku', 'fufu', 'yam')";
+        const sqlinsert = "INSERT INTO meals VALUES ('tuesday', 'banku', 'fufu', 'yam')";
         db.query(sqlinsert, (err, result)=>{
             if(err) console.log(err);
             else res.send(result);
